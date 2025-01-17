@@ -1,6 +1,4 @@
-package com.korit.serviet_study.server_flow;
-
-import java.sql.SQLOutput;
+package com.korit.servlet_study.server_flow;
 
 public class TestFilter {
     public static void doFilter(Request req, Response res) {

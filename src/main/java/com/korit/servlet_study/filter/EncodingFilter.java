@@ -1,4 +1,4 @@
-package com.korit.serviet_study.filter;
+package com.korit.servlet_study.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

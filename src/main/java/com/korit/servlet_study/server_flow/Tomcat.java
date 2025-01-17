@@ -1,4 +1,4 @@
-package com.korit.serviet_study.server_flow;
+package com.korit.servlet_study.server_flow;
 
 public class Tomcat {
     public static void service(String url, String method) {

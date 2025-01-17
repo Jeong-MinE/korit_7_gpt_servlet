@@ -1,6 +1,6 @@
-package com.korit.serviet_study.datas;
+package com.korit.servlet_study.datas;
 
-import com.korit.serviet_study.entity.Category;
+import com.korit.servlet_study.entity.Category;
 
 import java.util.List;
 

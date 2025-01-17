@@ -1,5 +1,4 @@
-package com.korit.serviet_study.entity;
-
+package com.korit.servlet_study.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class User {
+    private int userId;
     private String username;
     private String password;
     private String name;

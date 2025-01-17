@@ -1,5 +1,5 @@
-<%@ page import="com.korit.serviet_study.entity.Category" %>
-<%@ page import="com.korit.serviet_study.datas.DataList" %>
+<%@ page import="com.korit.servlet_study.entity.Category" %>
+<%@ page import="com.korit.servlet_study.datas.DataList" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: user

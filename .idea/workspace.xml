@@ -9,35 +9,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed272134-2a03-4e9f-8972-8eb8831a810f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/datas/DataList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/TestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Tomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/ProductRegisterPageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/ProductSearchPageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/userServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/product_register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/product_search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="df468702-6ebf-46e9-928e-286d0731088e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/config/DBConnectionMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/BookCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/BookRestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/UserRestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/UserServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/book_study1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/datas/DataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/datas/DataList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/filter/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/server_flow/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/server_flow/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/server_flow/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/server_flow/TestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/server_flow/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/server_flow/Tomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/server_flow/Tomcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/ProductRegisterPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/ProductRegisterPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/ProductSearchPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/ProductSearchPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/serviet_study/servlet/userServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/product_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/product_register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,34 +76,34 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
-  <component name="ProjectId" id="2rF9G1vxCptlnah76JWSJXu3fAO" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rQayqs7SV9imdUdwZSh5myYwUx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Tomcat Server.Tomcat 9.0.98.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/korea-gpt/servlet_study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.servlet_study [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.servlet_study [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.98.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.korit.serviet_study.servlet" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.korit.servlet_study.entity" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,7 +118,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="46117390-d949-4be8-b8d2-7c1cc216dadb" />
+        <option name="BASE_DIRECTORY_NAME" value="5bc813e5-89c7-494f-a2f4-be0aa197fe80" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -119,7 +126,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63052" />
+        <option name="DEBUG_PORT" value="52064" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -200,12 +207,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed272134-2a03-4e9f-8972-8eb8831a810f" name="Changes" comment="" />
-      <created>1736143857016</created>
+      <changelist id="df468702-6ebf-46e9-928e-286d0731088e" name="Changes" comment="" />
+      <created>1736494009792</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736143857016</updated>
-      <workItem from="1736143858191" duration="7088000" />
+      <updated>1736494009792</updated>
+      <workItem from="1736494011167" duration="4762000" />
+      <workItem from="1736727173389" duration="1992000" />
+      <workItem from="1736817915792" duration="1000" />
+      <workItem from="1736899967289" duration="618000" />
+      <workItem from="1737097632790" duration="4673000" />
     </task>
     <servers />
   </component>

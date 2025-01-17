@@ -1,4 +1,4 @@
-package com.korit.serviet_study.server_flow;
+package com.korit.servlet_study.server_flow;
 
 public class Main {
     public static void main(String[] args) {

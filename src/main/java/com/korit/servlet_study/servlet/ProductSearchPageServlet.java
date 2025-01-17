@@ -1,4 +1,4 @@
-package com.korit.serviet_study.servlet;
+package com.korit.servlet_study.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

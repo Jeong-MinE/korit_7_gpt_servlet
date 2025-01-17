@@ -1,6 +1,6 @@
-package com.korit.serviet_study.servlet;
+package com.korit.servlet_study.servlet;
 
-import com.korit.serviet_study.datas.DataList;
+import com.korit.servlet_study.datas.DataList;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;

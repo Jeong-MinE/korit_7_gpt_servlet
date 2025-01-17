@@ -1,4 +1,4 @@
-package com.korit.serviet_study.entity;
+package com.korit.servlet_study.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
