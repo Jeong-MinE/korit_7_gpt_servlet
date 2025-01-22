@@ -5,11 +5,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Builder
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-public class BookCategory {
-    private int categoryId;
-    private String categoryName;
+@Builder
+public class Board {
+    private int boardId;
+    private String title;
+    private String content;
 }

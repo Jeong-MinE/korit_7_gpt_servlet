@@ -81,12 +81,12 @@ public class BookDao {
                     insert into category_tb values (default, ?)
                     """;
             ps = con.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-            ps.setString(1, bookCategory.getBookCategoryName());
+            ps.setString(1, bookCategory.getCategoryName());
             ps.executeUpdate();
             ResultSet rs = ps.getGeneratedKeys();
             if (rs.next()) {
                 int id = rs.getInt(1);
-                bookCategory.setBookCategoryId(id);
+                bookCategory.setCategoryId(id);
             }
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -107,7 +107,7 @@ public class BookDao {
             ps.setInt(2, book.getAuthor().getAuthorId());
             ps.setString(3, book.getIsbn());
             ps.setInt(4, book.getPublisher().getPublisherId());
-            ps.setInt(5, book.getBookcategory().getBookCategoryId());
+//            ps.setInt(5, book.getBookCategory().getCategoryId());
             ps.setString(6, book.getBookImgUrl());
             ps.executeUpdate();
 

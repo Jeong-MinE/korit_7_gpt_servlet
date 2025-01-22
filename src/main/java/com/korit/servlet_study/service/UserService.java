@@ -25,7 +25,7 @@ public class UserService {
         if(searchValue == null || searchValue.isBlank()) {
             return userDao.findAll();
         }
-       return userDao.findAllBySearchValue(searchValue);
+        return userDao.findAllBySearchValue(searchValue);
     }
 
     public User addUser(User user) {
