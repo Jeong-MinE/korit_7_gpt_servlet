@@ -6,13 +6,13 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 // * : 모든 요청
-@WebFilter("*")
 public class EncodingFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         System.out.println("필터!!!");
         HttpServletRequest request = (HttpServletRequest) servletRequest;
+        System.out.println(request.getRequestURI());
         servletRequest.setCharacterEncoding("UTF-8");
         servletResponse.setCharacterEncoding("UTF-8");
 
